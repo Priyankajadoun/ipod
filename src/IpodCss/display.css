@@ -1,0 +1,26 @@
+.display{
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    height: 210px;
+    margin-top: 25px;
+    border: 1.5px solid black;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../static/wallpaper2.jpg");
+}
+
+.blank-div{
+    width: 270px;
+    height: 210px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.empty-text{
+    margin: 5px;
+    text-align: center;
+}

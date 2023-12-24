@@ -1,0 +1,51 @@
+.menu-container{
+    display: flex;
+   
+
+}
+
+.menu{
+    background-color: white;
+    height: 210px;
+    width: 135px;
+     padding: 0px 10px;
+
+}
+
+
+.heading{
+   padding: 0px 10px;
+}
+
+ul{
+width: 100%;
+padding: 0px;
+list-style: none;
+}
+
+li{
+    padding: 8px 0px;
+}
+
+
+/* Active list item */
+.active{
+    padding-left: 5px;
+    position: relative;
+    background-color: rgb(55, 150, 220);
+    color: white;
+}
+
+/* Arrow sign after list item */
+.active::after{
+    position: absolute;
+    content: ">";
+    right: 15px;
+}
+
+
+.leaf-img{
+    border: 2px solid black;
+    height: 188px;
+    width: 135px;
+}

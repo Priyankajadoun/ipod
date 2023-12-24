@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  /* background-color: gray; */
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

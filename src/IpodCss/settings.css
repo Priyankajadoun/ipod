@@ -1,0 +1,14 @@
+
+
+.setting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 210px;
+    flex-direction: column;
+}
+.img{
+    height:100px;
+    width: 100px;
+}
